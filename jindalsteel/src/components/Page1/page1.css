@@ -1,0 +1,80 @@
+*{
+    font-family: serif;
+}
+
+.pg-1{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    height: 70vh;
+    width: 70vw;
+    /* border: 2px solid blue; */
+    /* background-image: url('../../assests/jindalbg.webp'); */
+    gap: 6vh;
+    padding: 5vh 0;
+    background: rgba(226, 241, 247,0.7);
+    /* background-color: rgb(210, 230, 244); */
+    /* background-clip: border-box; */
+    /* backdrop-filter: blur(5px); */
+    border-radius: 10px;
+}
+
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* filter: blur(1px); */
+}
+
+.pg1-head{
+    display: flex;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.pg-1-calc{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.pg-1-input{
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: auto; */
+    font-size: 1.5vw;
+}
+
+.input-var{
+    display: flex;
+    size: 5vw;
+    color: white;
+    background-color: rgba(8, 8, 57, 0.5);
+    padding: 5px;
+    font-size: 1vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.cal-btn{
+    display: flex;
+    font-size: 1.5vw;
+    padding: 5px;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+}
