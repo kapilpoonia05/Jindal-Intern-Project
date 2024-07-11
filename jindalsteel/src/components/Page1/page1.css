@@ -21,6 +21,7 @@
     background: rgba(226, 241, 247,0.7);
     border-radius: 10px;
     padding-top: 3vh;
+    padding-bottom: 5vh;
 }
 
 .bg{
@@ -79,13 +80,18 @@
     border: none;
     border-radius: 5px;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
 }
-/* @media only screen and (max-width:1200px){
-    .input-var{
 
-    }
-} */
+.result{
+    margin-top: 5vh;
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width:800px){
     .pg1-head{
@@ -94,7 +100,7 @@
     .pg-1-input{
         font-size: 20px;
     }
-    .cal-btn{
+    .cal-btn,.result{
         font-size: 20px;
     }
     .input-var{
@@ -109,7 +115,7 @@
     .pg-1-input{
         font-size: 12px;
     }
-    .cal-btn{
+    .cal-btn,.result{
         font-size: 12px;
     }
 }
