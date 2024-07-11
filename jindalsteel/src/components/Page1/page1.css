@@ -58,7 +58,8 @@
     color: white;
     background-color: rgba(8, 8, 57, 0.5);
     padding: 5px;
-    font-size: 1vw;
+    /* font-size: 1vw; */
+    font-size: 20px;
     font-weight: 700;
     border: none;
     border-radius: 5px;
@@ -80,6 +81,11 @@
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+/* @media only screen and (max-width:1200px){
+    .input-var{
+
+    }
+} */
 
 @media only screen and (max-width:800px){
     .pg1-head{
@@ -90,6 +96,9 @@
     }
     .cal-btn{
         font-size: 20px;
+    }
+    .input-var{
+        font-size: 15px;
     }
 }
 
