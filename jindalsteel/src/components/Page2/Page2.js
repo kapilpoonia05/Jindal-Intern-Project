@@ -78,7 +78,7 @@ const Page2 = () => {
     const log_prop_out = await Math.log(inputValues.PropOutTemperature)
     const log_predicted_dis_press = await (data.dis.a * Math.log(data.dis.k1) + data.dis.b * log_methanol_flow + data.dis.d * log_cws_temp + data.dis.e * log_cw_flow + data.dis.c * log_raw_gas_flow + data.dis.f * log_prop_out)
     const predicted_dis_press = await Math.exp(log_predicted_dis_press)
-    const corrected_dis_press=predicted_dis_press-0.23
+    const corrected_dis_press=predicted_dis_press-0.25
     setResult(corrected_dis_press);
     setIsResult(true);
   };
